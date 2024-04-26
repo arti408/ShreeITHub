@@ -1,0 +1,209 @@
+body{
+    background-color: rgb(14, 31, 61);
+    color: white;
+    font-family: montserrat;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  .home{
+    width: 100%;
+    height: 80vh;
+  }
+  nav{
+    background: rgb(1, 9, 23);
+    height: 60px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 60px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: rgb(33, 78, 154);
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+
+  .below{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .middle{
+    border: 1px solid yellow;
+    border-radius: 5px;
+    width: 450px;
+    margin: 70px auto;
+    font-size: 50px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px 10px rgb(96, 96, 38);
+    background-color: rgb(33, 78, 154);
+  }
+
+  .below img{
+
+    border-radius: 100%;
+    width: 300px;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+  .one{
+    margin-top: -300px;
+    
+
+  }
+
+  .two img{
+    width: 300px;
+    height: 300px;
+    
+  }
+  
+@keyframes animation{
+    
+    75%{
+        border-color: rgb(130,217,160);
+        box-shadow: 5px 5px 50px 10px rgb(130,217,160);
+    }
+    
+}
+
+#servicecontainer{
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container{
+  width: 450px;
+  height: 200px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding-top: 20px;
+  margin: 50px;
+}
+
+.container .img{
+  background-color: rgb(33, 78, 154);
+ width: 350px;
+ height: 180px;
+  margin: 10px auto;
+  border: 1px solid yellow;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.about{
+  width: 100%;
+  height: 87vh;
+  padding: 70px 100px;
+}
+
+.whyus{
+  width: 800px;
+  background-color: rgb(33, 78, 154);
+  border: 1px solid rgb(130,217,160);
+  border-radius: 10px;
+  padding: 20px;
+  margin: -20px 30px;
+  box-shadow: 10px 10px 10px 5px rgb(130,217,160);
+}
+
+.aboutShreeIt{
+  display: flex;
+  align-items: center;
+}
+
+.first{
+  margin-right: 50px;
+}
+.first h1{
+  font-weight: bold;
+}
+
+.first p{
+  font-size: 20px;
+}
+
+.aboutShreeIt img{
+  width: 400px;
+  border: 1px solid yellow;
+  box-shadow: 5px 5px 10px 10px rgb(96, 96, 38);
+}
+
+.whyus h2{
+  font-weight: 700;
+  color: yellow;
+}
+
+.contact{
+  width: 500px;
+  border: 1px solid yellow;
+  background-color: rgb(33, 78, 154);
+  border-radius: 10px;
+  margin: 55px auto;
+  padding: 20px;
+  font-size: 20px;
+  box-shadow: 5px 5px 10px 10px rgb(96, 96, 38);
+
+}
+
+.fields{
+  padding: 5px;
+}
+
+.btn{
+  margin: 0 180px;
+  margin-top: 10px;
+  background-color: rgb(5, 5, 97);
+  font-size: 20px;
+}
